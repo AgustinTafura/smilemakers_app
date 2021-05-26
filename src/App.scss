@@ -1,16 +1,38 @@
-// Override default variables before the import
-:root {
- 
-    --primary: #505e7a;
-    --secondary: #83c7d3;
-    --success: #80E0B9;
-    --info: #17a2b8;
-    --warning: #809FE0;
-    --danger: #A16054;
-    --light: #f8f9fa;
-    --dark: #272D3B;
+//FONTS
+@font-face {
+	font-family: 'Montserrat';
+	src: local('Montserrat'), url(/fonts/Montserrat/Montserrat-Regular.ttf) format("truetype");
+}
 
-  }
+@font-face {
+	font-family: 'Montserrat-SemiBold';
+	src: local('Montserrat-SemiBold'), url(/fonts/Montserrat/Montserrat-SemiBold.ttf) format("truetype");
+}
 
-// Import Bootstrap and its default variables
-@import '~bootstrap/scss/bootstrap.scss';
+@font-face {
+	font-family: 'Montserrat-Medium';
+	src: local('Montserrat-Medium'), url(/fonts/Montserrat/Montserrat-Medium.ttf) format("truetype");
+}
+
+@font-face {
+	font-family: 'Montserrat-Light';
+	src: local('Montserrat-Light'), url(/fonts/Montserrat/Montserrat-Light.ttf) format("truetype");
+}
+
+@font-face {
+	font-family: 'Montserrat-Bold';
+	src: local('Montserrat-Bold'), url(/fonts/Montserrat/Montserrat-Bold.ttf) format("truetype");
+}
+
+@font-face {
+	font-family: 'Montserrat-Black';
+	src: local('Montserrat-Black'), url(/fonts/Montserrat/Montserrat-Black.ttf) format("truetype");
+}
+
+html {
+	scroll-behavior: smooth;
+}
+
+body{
+  font-family: 'Montserrat'
+}

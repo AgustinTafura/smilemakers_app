@@ -1,3 +1,4 @@
+import './customBootstrap.scss'
 import './App.scss';
 import 'bootstrap/dist/js/bootstrap.js'
 import Navbar from './components/navbar';
@@ -14,11 +15,13 @@ function App() {
       <Navbar/>
       <Carousel/>
      
-
+      <main className='container'>
       <QueSon/>
       <Tratamiento/>
       <Ventajas/>
       <PreguntasFrecuentes/>
+
+      </main>
 
     
 
