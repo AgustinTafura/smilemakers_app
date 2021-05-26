@@ -1,0 +1,16 @@
+// Override default variables before the import
+:root {
+ 
+    --primary: #505e7a;
+    --secondary: #83c7d3;
+    --success: #80E0B9;
+    --info: #17a2b8;
+    --warning: #809FE0;
+    --danger: #A16054;
+    --light: #f8f9fa;
+    --dark: #272D3B;
+
+  }
+
+// Import Bootstrap and its default variables
+@import '~bootstrap/scss/bootstrap.scss';
