@@ -1,62 +1,79 @@
+import './index.scss'
+
 const Tratamiento = () => {
     return (
-        <div id='tratamiento'>
+        <section id='tratamiento'>
             <h1>Tratamiento</h1>
             <p>
-                ¿Te gustaría conocer cuál es la duración del tratamiento?
-
-                Te contamos que esto va a depender de cada paciente, pudiendo durar, según la complejidad del caso, entre 9 a 18 meses.
-
-                La cantidad de placas va a definir la duración del tratamiento y, dependiendo del grado de complejidad, puede hacerse en una o dos etapas.
-
-                Durante el diseño de la sonrisa, se generan varios alineadores que van a ser cambiados cada 15 o 20 días, según indicación del ortodoncista y dependiendo de cada tratamiento.
-
-                Se pueden obtener resultados visibles entre los 3 y 12 meses de uso.
+                El tratamiendo con Alineadores Invisibles 
+                <b> SMILE MAKERS<span style={{fontSize:'0.7rem', verticalAlign: 'text-top'}}>® </span></b> 
+                puede durar entre 9 a 18 meses, aunque se puede notar resultados visibles a partir de los 3 meses de uso.
             </p>
             <p>
-                Estamos en constante incorporación de nueva tecnología para estar siempre a la vanguardia y ofrecerte un servicio de calidad.
-
-                Para el diseño de tu sonrisa utilizamos un escaner intraoral, el cual va a generar diseños 3D de tu boca, que serán el punto de partida para la impresión de tus alineadores.
+                La cantidad de placas va a definir la duración del tratamiento y, dependiendo del grado de complejidad, puede hacerse en una o dos etapas.
+            </p>
+            <p>
+                Durante el diseño de la sonrisa, se generan varios alineadores que van a ser cambiados cada 15 o 20 días, según indicación del ortodoncista y dependiendo de cada tratamiento.
             </p>
             <p>
                 Te contamos paso a paso como te ayudamos a conseguir una sonrisa perfecta.
 
-                • Realizamos un escaneo intraoral,
+                • Comenzamos con un diagnóstico personalizado de cada caso.
 
-                • A partir de este se generan archivos STL, son modelos 3D de tu boca,
+                • Realizamos un escaneo intraoral, que genera modelos digitales 3D de tu boca.
 
-                • Luego generamos un diseño de como va a quedar tu sonrisa,
-                este se realiza mediante un software, que replica como van a quedar tus dientes en cada una de las etapas del tratamiento,
+                • Diseñamos tu sonrisa, replicando los diferentes estadíos en los que va a avanzar tu boca a medida que cambies los alineadores.
 
-                • Por ultimo imprimimos tus SMILE MAKERS
+                • Imprimimos y entregamos tu Kit Inicial de Alineadores <b>SMILE MAKERS<span style={{fontSize:'0.7rem', verticalAlign: 'text-top'}}>®</span></b> 
             </p>
-            <p>
-                En este post te contamos el paso a paso para llegar a una sonrisa perfecta de la mano de SMILE MAKERS.
-                - En la primera consulta evaluamos el caso, solicitamos los estudios necesarios para poder iniciar el tratamiento y realizamos el escaneo de tu boca para tenerla de forma digital y trabajar en ella,
-                - Te enviamos un archivo digital para que puedas ver como va a quedar tu sonrisa.
-                - Imprimimos los modelos 3D de los diferentes estadios en los que va a avanzar tu boca a medida que cambies los alineadores,
-                - Por ultimo obtenemos las placas a partir de estos.
-            </p>
-            <p>
-                Las placas alineadoras SMILE MAKERS se cambian cada 20 días.
-                En cada cambio podes sentir alguna molestia durante los primeros 4 a 5 días hasta que tus dientes se acostumbren a ellas.
-                Solo debes quitártelas para comer y cepillarte los dientes.
-                El tratamiento tiene una duración 12 a 18 meses, aunque puede variar dependiendo el caso.
-            </p>
-            <p>
-                El escáner intraoral es el primer paso para comenzar con el diseño de tu sonrisa. Nos permite crear un archivo digital 3D de la boca del paciente y de esta manera poder trabajar sobre ella.
-                Utilizamos un sensor que se introducirá dentro de la boca e irá tomando imágenes de la misma.
-
-                VENTAJAS DEL ESCÁNER INTRAORAL
-                * Es mucho mas cómodo para el paciente ya que se elimina el uso de pasta para tomar el modelo.
-                * Precisión en las medidas tomadas.
-                * El archivo generado se encuentra de manera digital y se puede trabajar directamente en el.
-                * Más rápido
-            </p>
-            <p>
-                Utilizamos tecnología de última generación que nos permite realizar en el primer diagnóstico, una proyección de como quedara tu sonrisa al final del tratamiento.
-            </p>
-        </div>
+            <div id="carouselPasos" className="carousel slide carousel-fade" data-ride="carousel" data-touch="true" data-wrap='false'>
+                <ol className="carousel-indicators">
+                    <li data-target="#carouselPasos" data-slide-to="0"></li>
+                    <li data-target="#carouselPasos" data-slide-to="1"></li>
+                    <li data-target="#carouselPasos" data-slide-to="2"></li>
+                </ol>
+                <div className="carousel-inner">
+                    <div className="carousel-item active">
+                        <div className="card" style={{width: '18rem'}}>
+                            <img className="card-img-top" src="./assets/img/di5.gif" alt="Card image cap"/>
+                            <div className="card-body">
+                                <h5 className="card-title">Card title</h5>
+                                <p className="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                <a href="#" className="btn btn-primary">Go somewhere</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div className="carousel-item">
+                        <div className="card" style={{width: '18rem'}}>
+                            <img className="card-img-top" src="./assets/img/di5.gif" alt="Card image cap"/>
+                            <div className="card-body">
+                                <h5 className="card-title">Card title</h5>
+                                <p className="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                <a href="#" className="btn btn-primary">Go somewhere</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div className="carousel-item">
+                        <div className="card" style={{width: '18rem'}}>
+                            <img className="card-img-top" src="./assets/img/di1.gif" alt="Card image cap"/>
+                            <div className="card-body">
+                                <h5 className="card-title">Card title</h5>
+                                <p className="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                <a href="#" className="btn btn-primary">Go somewhere</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <a className="carousel-control-prev" href="#carouselPasos" role="button" data-slide="prev">
+                    <span className="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span className="sr-only">Previous</span>
+                </a>
+                <a className="carousel-control-next" href="#carouselPasos" role="button" data-slide="next">
+                    <span className="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span className="sr-only">Next</span>
+                </a>
+            </div>
+        </section>
     )
 }
 

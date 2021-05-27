@@ -37,6 +37,7 @@
 @font-face {
 	font-family: 'Posterama-Text-Bold';
 	src: local('Posterama-Text-Bold'), url(/fonts/Posterama-Text-Bold/Posterama-Text-Bold.ttf) format("truetype");
+	font-display: block;
 }
 
 @font-face {
@@ -54,12 +55,16 @@ body{
 
 section {
 	padding-top: 7rem;
-	margin-bottom: 2rem;
+	margin-bottom: 3.5rem;
 
 	h1 {
-		text-transform: uppercase;
-    	font-family: 'Nunito';
-		font-weight: 600;
+		// text-transform: uppercase;
+		font-family: 'POSTERAMA-TEXT-BOLD';
+		text-align: -webkit-center;
 		text-align: center;
+		font-size: 2.5rem;
+		margin-bottom: 2rem;
+	}
+	p {
 	}
 }
