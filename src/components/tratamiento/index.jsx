@@ -43,6 +43,19 @@ const Tratamiento = () => {
                 Solo debes quitártelas para comer y cepillarte los dientes.
                 El tratamiento tiene una duración 12 a 18 meses, aunque puede variar dependiendo el caso.
             </p>
+            <p>
+                El escáner intraoral es el primer paso para comenzar con el diseño de tu sonrisa. Nos permite crear un archivo digital 3D de la boca del paciente y de esta manera poder trabajar sobre ella.
+                Utilizamos un sensor que se introducirá dentro de la boca e irá tomando imágenes de la misma.
+
+                VENTAJAS DEL ESCÁNER INTRAORAL
+                * Es mucho mas cómodo para el paciente ya que se elimina el uso de pasta para tomar el modelo.
+                * Precisión en las medidas tomadas.
+                * El archivo generado se encuentra de manera digital y se puede trabajar directamente en el.
+                * Más rápido
+            </p>
+            <p>
+                Utilizamos tecnología de última generación que nos permite realizar en el primer diagnóstico, una proyección de como quedara tu sonrisa al final del tratamiento.
+            </p>
         </div>
     )
 }

@@ -29,10 +29,37 @@
 	src: local('Montserrat-Black'), url(/fonts/Montserrat/Montserrat-Black.ttf) format("truetype");
 }
 
+@font-face {
+	font-family: 'Arbonnie';
+	src: local('Ar bonnie'), url(/fonts/Arbonnie/Arbonnie.ttf) format("truetype");
+}
+
+@font-face {
+	font-family: 'Posterama-Text-Bold';
+	src: local('Posterama-Text-Bold'), url(/fonts/Posterama-Text-Bold/Posterama-Text-Bold.ttf) format("truetype");
+}
+
+@font-face {
+	font-family: 'AvenirNextLTPro-Regular';
+	src: local('AvenirNextLTPro-Regular'), url(/fonts/AvenirNextLTPro-Regular/AvenirNextLTPro-Regular.otf) format("truetype");
+}
+
 html {
 	scroll-behavior: smooth;
 }
 
 body{
   font-family: 'Montserrat'
+}
+
+section {
+	padding-top: 7rem;
+	margin-bottom: 2rem;
+
+	h1 {
+		text-transform: uppercase;
+    	font-family: 'Nunito';
+		font-weight: 600;
+		text-align: center;
+	}
 }

@@ -1,0 +1,29 @@
+
+
+#accordion{
+
+    .card{
+        border-radius: 0%;
+        border: none;
+        margin-bottom: 0.4rem;
+
+        &.active, &:hover{
+            background: linear-gradient(to right, var(--secondary) 0.3rem, transparent 0)
+        }
+        
+
+        h5 {
+            color: var(--primary);
+            border-radius: 0%;
+            border: none;
+            
+            &:hover {
+                text-decoration: none;
+            }
+            
+        }
+
+    }
+
+
+}

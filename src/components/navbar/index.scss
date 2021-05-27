@@ -3,7 +3,9 @@ nav{
     -moz-transition: background-color 0.5s ease;
     -o-transition: background-color 0.5s ease;
     transition: background-color 0.5s ease;
-    
+    box-shadow: 0 2px 8px 0 #3232320a;
+    margin: 0!important;
+
     &.navbar-light{
         background-color: #ffffffa6;
     }
@@ -13,4 +15,20 @@ nav{
             width: 8rem;
         }
     }
+
+
+
+    .collapse {
+        li:nth-last-child(1){
+            a{
+                font-weight: bold;
+                color: var(--primary) !important;
+                &:hover {
+                    color: var(--secondary) !important;
+                } 
+            }
+        }
+    } 
+
+
 }

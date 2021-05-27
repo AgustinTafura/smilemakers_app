@@ -1,4 +1,4 @@
-const Ventajas = () => {
+const Beneficios = () => {
     return (
         <div id='ventajas'>
             <h1>Ventajas</h1>
@@ -35,4 +35,4 @@ const Ventajas = () => {
     )
 }
 
-export default Ventajas
+export default Beneficios

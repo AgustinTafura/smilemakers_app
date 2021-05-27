@@ -5,7 +5,7 @@ import Navbar from './components/navbar';
 import Carousel from './components/carousel';
 import QueSon from './components/que-son';
 import Tratamiento from './components/tratamiento';
-import Ventajas from './components/ventajas';
+import Beneficios from './components/beneficios';
 import PreguntasFrecuentes from './components/preguntasFrecuentes';
 import ContactBubble from './components/contactBubble';
 
@@ -16,11 +16,10 @@ function App() {
       <Carousel/>
      
       <main className='container'>
-      <QueSon/>
-      <Tratamiento/>
-      <Ventajas/>
-      <PreguntasFrecuentes/>
-
+        <QueSon/>
+        <Tratamiento/>
+        <Beneficios/>
+        <PreguntasFrecuentes/>
       </main>
 
     
