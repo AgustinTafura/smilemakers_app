@@ -1,6 +1,6 @@
 const QueSon = () => {
     return (
-        <section id='que-son'>
+        <section id='que-son' className='container'>
             <h1>Alineadores Invisibles</h1>
             <p>
                 Los alineadores invisibles <b>SMILE MAKERS<span style={{fontSize:'0.7rem', verticalAlign: 'text-top'}}>®</span></b> funcionan alineando tus dientes para ayudarte a lucir una sonrisa perfecta.

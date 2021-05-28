@@ -8,6 +8,7 @@ import Tratamiento from './components/tratamiento';
 import Beneficios from './components/beneficios';
 import PreguntasFrecuentes from './components/preguntasFrecuentes';
 import ContactBubble from './components/contactBubble';
+import CarouselSteps from './components/carouselPasos';
 
 function App() {
   return (
@@ -15,13 +16,13 @@ function App() {
       <Navbar/>
       <Carousel/>
      
-      <main className='container'>
+      <main >
         <QueSon/>
         <Tratamiento/>
+        <CarouselSteps/>
         <Beneficios/>
         <PreguntasFrecuentes/>
       </main>
-
     
 
       <ContactBubble/>

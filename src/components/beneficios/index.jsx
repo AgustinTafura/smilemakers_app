@@ -1,6 +1,6 @@
 const Beneficios = () => {
     return (
-        <div id='ventajas'>
+        <div id='ventajas' className='container'>
             <h1>Ventajas</h1>
             <p>
                 🅱🆁🅰🅲🅺🅴🆃🆂

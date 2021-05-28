@@ -23,7 +23,7 @@ const PreguntasFrecuentes = () => {
     }, [])
 
     return (
-        <section id='preguntasFrecuentes' >
+        <section id='preguntasFrecuentes' className='container'>
             <h1>Preguntas Frecuentes</h1>
 
             <div id="accordion" className=''>

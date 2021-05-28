@@ -2,47 +2,57 @@
 @font-face {
 	font-family: 'Montserrat';
 	src: local('Montserrat'), url(/fonts/Montserrat/Montserrat-Regular.ttf) format("truetype");
+	font-display: block;
 }
 
 @font-face {
 	font-family: 'Montserrat-SemiBold';
 	src: local('Montserrat-SemiBold'), url(/fonts/Montserrat/Montserrat-SemiBold.ttf) format("truetype");
+	font-display: block;
 }
 
 @font-face {
 	font-family: 'Montserrat-Medium';
 	src: local('Montserrat-Medium'), url(/fonts/Montserrat/Montserrat-Medium.ttf) format("truetype");
+	font-display: block;
 }
 
 @font-face {
 	font-family: 'Montserrat-Light';
 	src: local('Montserrat-Light'), url(/fonts/Montserrat/Montserrat-Light.ttf) format("truetype");
+	font-display: block;
 }
 
 @font-face {
 	font-family: 'Montserrat-Bold';
 	src: local('Montserrat-Bold'), url(/fonts/Montserrat/Montserrat-Bold.ttf) format("truetype");
+	font-display: block;
 }
 
 @font-face {
 	font-family: 'Montserrat-Black';
 	src: local('Montserrat-Black'), url(/fonts/Montserrat/Montserrat-Black.ttf) format("truetype");
+	font-display: block;
+
 }
 
 @font-face {
 	font-family: 'Arbonnie';
 	src: local('Ar bonnie'), url(/fonts/Arbonnie/Arbonnie.ttf) format("truetype");
+	font-display: block;
 }
 
 @font-face {
 	font-family: 'Posterama-Text-Bold';
 	src: local('Posterama-Text-Bold'), url(/fonts/Posterama-Text-Bold/Posterama-Text-Bold.ttf) format("truetype");
 	font-display: block;
+
 }
 
 @font-face {
 	font-family: 'AvenirNextLTPro-Regular';
 	src: local('AvenirNextLTPro-Regular'), url(/fonts/AvenirNextLTPro-Regular/AvenirNextLTPro-Regular.otf) format("truetype");
+	font-display: block;
 }
 
 html {

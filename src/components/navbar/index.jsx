@@ -10,7 +10,7 @@ const Navbar = () => {
 
     const navBarColor = ()=>{
         var navbar = document.getElementById('navbar')
-        var main = document.querySelector("main.container")
+        var main = document.querySelector("main")
         window.scrollY > main.offsetTop ? (navbar.classList.add('bg-white')): (navbar.classList.remove('bg-white'))
     }
     
