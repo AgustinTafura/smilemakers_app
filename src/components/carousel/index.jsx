@@ -10,13 +10,16 @@ const Carousel = () => {
             </ol>
             <div className="carousel-inner">
                 <div className="carousel-item active">
-                <img className="d-block w-100" src="./assets/img/di5.gif" alt="First slide"/>
+                <img className="d-block w-100" src="./assets/img/di9.gif" alt="First slide"/>
+                <h1>ALINADORES INVISIBLES</h1>
+                <button className='btn btn-outline-light'>Quiero mis SM®</button>
+                
                 </div>
                 <div className="carousel-item">
-                <img className="d-block w-100" src="./assets/img/di6.gif" alt="Second slide"/>
+                <img className="d-block w-100" src="./assets/img/di4.jpeg" alt="Second slide"/>
                 </div>
                 <div className="carousel-item">
-                <img className="d-block w-100" src="./assets/img/di3.jpeg" alt="Third slide"/>
+                <img className="d-block w-100" src="./assets/img/lala.jpg" alt="Third slide"/>
                 </div>
             </div>
             <a className="carousel-control-prev" href="#carouselHome" role="button" data-slide="prev">

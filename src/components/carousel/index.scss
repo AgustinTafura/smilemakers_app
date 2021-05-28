@@ -2,4 +2,33 @@
     height: 100vh;
     max-height: 100vh;
     overflow: hidden;
+
+    h1 {
+        position: absolute;
+        top: 6rem;
+        // text-align: -webkit-center;
+        color: white;
+        font-weight: bold;
+        margin-left: auto;
+        margin-right: auto;
+        left: 0;
+        right: 0;
+        text-align: center;
+    }
+
+    
+        button{
+            top: 14rem;
+            position: absolute;
+            border: white;
+            border-style: solid;
+            color: white;
+            font-family: 'Montserrat';
+            margin-left: auto;
+            margin-right: auto;
+            left: 0;
+            right: 0;
+            text-align: center;
+        }
+    
 }
