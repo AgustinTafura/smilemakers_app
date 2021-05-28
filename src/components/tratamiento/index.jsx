@@ -8,7 +8,7 @@ const Tratamiento = () => {
             <div>
                 <div>
                     <p>
-                        El tratamiendo con Alineadores Invisibles 
+                        El tratamiendo de Ortodoncia con Alineadores Invisibles 
                         <b> SMILE MAKERS<span style={{fontSize:'0.7rem', verticalAlign: 'text-top'}}>® </span></b> 
                         puede durar entre 9 a 18 meses, aunque se puede notar resultados visibles a partir de los 3 meses de uso.
                     </p>
