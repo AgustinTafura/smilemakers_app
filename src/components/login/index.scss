@@ -1,0 +1,71 @@
+.form-access {
+
+  margin: auto;
+  .header-form {
+    text-align: center;
+    #logo {
+      
+      margin-bottom: 1rem;
+  
+      img {
+        width: 10rem;
+      }
+    }
+  }
+
+  form {
+    
+    min-height: auto;
+    border: 1px solid #D5D5D5;
+    border-radius: 8px;
+    margin-top: 1.5rem;
+    padding: 1.2rem 2rem;
+    
+    label {
+      font-weight: bold;
+      font-size: 0.8rem;
+    }
+
+    input {
+      border-radius: 8px;
+      margin-top: 12px;
+  
+    } 
+
+  
+
+    .action-button {
+      margin-top: 2rem;
+      margin-bottom: 1rem;
+
+      button {
+        background-color: var(--secondary);
+        border-color: var(--secondary);
+        &:hover , &:active {
+          background-color: #669da7;
+          border-color: #669da7;
+        }
+
+        &.btn-google {
+          background-color: #db4437;
+          border-color: #db4437;
+
+          &:hover , &:active{
+            background-color: #a8362c;
+          border-color: #a8362c;            
+          }
+        }
+
+      }
+    }
+
+
+    small a {
+      color: var(--secondary);
+    }
+  }
+
+  
+  
+}
+  

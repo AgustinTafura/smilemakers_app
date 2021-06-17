@@ -1,37 +1,31 @@
 const Beneficios = () => {
     return (
-        <div id='ventajas' className='container'>
-            <h1>Ventajas</h1>
-            <p>
-                🅱🆁🅰🅲🅺🅴🆃🆂
+        <section id='beneficios' className='container'>
+            <h1>Beneficios</h1>
 
-                *VENTAJAS*
-
-                • Eficaces incluso en casos severos.
-
-                *DESVENTAJAS*
-
-                • Son fijos,
-                • Controles mensuales en consultorio,
-                • Pueden generar dolores, molestias o lastimar tu boca,
-                • No pueden higienizarse adecuadamente.
-
-                🅰🅻🅸🅽🅴🅰🅳🅾🆁🅴🆂 🅸🅽🆅🅸🆂🅸🅱🅻🅴🆂
-
-                *VENTAJAS*
-
-                • Son estéticos y totalmente imperceptibles,
-                • Removibles , por lo que vas a poder higienizarlos adecuadamente y retirarlos para comer,
-                • Para algunos casos no es necesario concurrir mensualmente al consultorio,
-                • Se genera tu sonrisa digitalmente, con posibilidad de ver el resultado final antes de comenzar el tratamiento,
-                •Es más rápido y preciso.
-
-                *DESVENTAJAS*
-
-                •No son aptos para todos los casos.
-            </p>
-           
-        </div>
+            <div>
+                <ul>
+                    <li>
+                        <div>Estética</div>
+                        <p>Son totalmente imperceptibles, nadie notará que los llevas puestos.</p>
+                    </li>
+                    
+                    <li>
+                        <div>Comodidad</div>
+                        <p>Se ajustan perfectamente a la forma del diente con terminaciones suaves que no lastiman tu boca.</p>
+                    </li>                   
+                    <li>
+                        <div>Higiéne</div>
+                        <p>Permite realizar una higiene bucodental más precisa al ser posible extraer las férulas.</p>
+                    </li>
+                    <li>
+                        <div>Rapidez</div>
+                        <p>Reduce los tiempos respecto a la ortodoncia tradicional</p>
+                    </li>
+                    
+                </ul>
+            </div>
+        </section>
     )
 }
 

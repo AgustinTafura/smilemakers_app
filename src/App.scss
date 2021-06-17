@@ -60,7 +60,8 @@ html {
 }
 
 body{
-  font-family: 'Montserrat'
+  font-family: 'Montserrat';
+  color: #484a46;
 }
 
 section {
@@ -68,13 +69,13 @@ section {
 	margin-bottom: 3.5rem;
 
 	h1 {
-		// text-transform: uppercase;
-		font-family: 'POSTERAMA-TEXT-BOLD';
 		text-align: -webkit-center;
 		text-align: center;
-		font-size: 2.5rem;
+		font-size: 1.5rem;
 		margin-bottom: 2rem;
+		font-weight: bold;
 	}
 	p {
 	}
 }
+

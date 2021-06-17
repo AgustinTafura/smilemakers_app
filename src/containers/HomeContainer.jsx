@@ -1,3 +1,4 @@
+import Navbar from '../components/navbar'
 import Beneficios from "../components/beneficios"
 import Carousel from "../components/carousel"
 import CarouselSteps from "../components/carouselPasos"
@@ -7,7 +8,8 @@ import Tratamiento from "../components/tratamiento"
 
 const HomeContainer = () => {
     return (
-        <div>
+        <>
+            <Navbar/>
             <Carousel/>
         
             <main >
@@ -17,7 +19,7 @@ const HomeContainer = () => {
                 <Beneficios/>
                 <PreguntasFrecuentes/>
             </main>
-        </div>
+        </>
     )
 }
 

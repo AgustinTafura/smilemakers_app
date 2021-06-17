@@ -38,7 +38,7 @@ const Navbar = () => {
     return (
         <nav id="navbar" className="navbar navbar-expand-lg navbar-light d-flex justify-content-between fixed-top ">
             <div id='logo'>
-                <a className="navbar-brand" href="#carouselHome"><img src="./assets/img/logo.png" alt="" /></a>
+                <a className="navbar-brand" href="#carouselHome"><img src={`${process.env.PUBLIC_URL}/assets/img/logo.png`} alt="" /></a>
             </div>
 
             <button className="navbar-toggler border-0" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -57,7 +57,7 @@ const Navbar = () => {
                     <a className="nav-link" href="#beneficios">Beneficios</a>
                 </li>
                 <li className="nav-item">
-                    <a className="nav-link" href="#ventajas">Primer Consulta</a>
+                    <a className="nav-link" href="/turnos">Primer Consulta</a>
                 </li>
                 <li className="nav-item">
                     <a className="nav-link" href="#profesional">Soy Odontólogo</a>

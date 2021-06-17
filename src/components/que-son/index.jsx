@@ -1,15 +1,33 @@
+import './index.scss'
+
 const QueSon = () => {
     return (
         <section id='que-son' className='container'>
-            <h1>Alineadores Invisibles</h1>
-            <p>
-                Los alineadores invisibles <b>SMILE MAKERS<span style={{fontSize:'0.7rem', verticalAlign: 'text-top'}}>®</span></b> funcionan alineando tus dientes para ayudarte a lucir una sonrisa perfecta.
-            </p>
-            <hr style={{width: '30%'}} />
-            <p style={{fontFamily:'Posterama-Text-Bold', textAlign: 'center', padding:'1rem',fontSize: '1.2rem'}}>
-                Son férulas plásticas livianas, flexibles y transparentes que no vas a notar que las llevas puestas.
-            </p>
-            <hr style={{width: '30%'}} />
+                
+            <h1>
+                ¡Queremos verte sonreir!
+            </h1>
+            <div className='row justify-content-center'>
+                <div className='col-12 col-md-8'>
+                    <p>
+                        Los alineadores invisibles <b>SMILE MAKERS<span style={{fontSize:'0.7rem', verticalAlign: 'text-top'}}>®</span></b> funcionan alineando progresivamente tus dientes para ayudarte a lucir una sonrisa perfecta.
+                    </p>
+                </div>
+                <div className='col-12'>
+                    <hr  />
+
+                        <ul className='row'>
+                            <li className='col-12 col-md-4'>livianos</li>
+                            <li className='col-12 col-md-4'>flexibles</li>
+                            <li className='col-12 col-md-4'>transparentes</li>
+                        </ul>
+                        
+
+                    <hr  />
+                </div>
+
+
+            </div>
             <p>
                 Son totalmente removibles, podes usarlas todo el dia excepto para comer y cepillar tus dientes, es decir las llevarás puestas alrededor de 22 hs al día.
             </p>
