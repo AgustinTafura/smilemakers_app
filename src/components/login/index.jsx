@@ -1,63 +1,49 @@
-
-import { useState } from 'react'
+import { useEffect, useContext, useState } from 'react'
+import { useLocation } from "react-router-dom";
+import { UserContext } from '../../context/UserContext';
 import './index.scss'
 
+
 const Login = () => {
-
-    const [login, setLogin] = useState(true)
-    const [email, setEmail] = useState(false)
-    const [loginGoogle, setLoginGoogle] = useState(false)
-
-    const CheckEmail = (e)=>{
-        var email = document.getElementById('profesional-email').value.toLowerCase();
+    
+    const locationPrams = new URLSearchParams(useLocation().search);
+    const {urlHostLogin, logInWhitGoogleCredentials, logInWhitGoogle} = useContext(UserContext)
+    const submitLogin =  (e)=>{
         e.preventDefault()
+        logInWhitGoogle()
         
-        email.includes('@gmail') && setLoginGoogle(true);
-        setEmail(email)
+        // urlHostLogin().then(data=>window.location.replace(data))
+    }
+    if(locationPrams.get('credential') != undefined) {
+        logInWhitGoogleCredentials(locationPrams.get('credential'))
     }
 
-    
     return (
-        <section className='container'>     
-            <main className="form-access col-12  col-md-10 col-lg-6 ">
+        <section className='container'>
+            <main className="form-access col-11  col-md-8 col-lg-6 ">
                 <div className='header-form'>
                     <div id='logo'>
                         <img src={`${process.env.PUBLIC_URL}/assets/img/logo.png`} alt="smilemakers brand logo " />
                     </div>
-                    {
-                        email?
-                            <div>{login?'Ingresa':'Crea'} a tu cuenta Profesional SM</div>
-                        :   <div>Hola {email}!</div>
-                    }
                 </div>
+        
+                <form onSubmit={(e)=>submitLogin(e)} className='container col-12 col-sm-10 col-md-9'>
 
-                <form onSubmit={CheckEmail} className='container col-12 col-sm-10 col-md-9'>
-                    
-                    <div className="form-group">
-                        <label htmlFor="profesional-email">Ingresa tu email para comenzar</label>
-                        <input required type="email" className="form-control" id="profesional-email" name="profesional-email" aria-describedby="emailHelp" placeholder="Email"/>
+                    <div className="description">
+                        Ingresa con tu cuenta de Google.<br />
+                        Es el método más rápido para comenzar conectando tu Calendario automaticamente!
                     </div>
-                    
-                    <div className='action-button d-flex justify-content-end'>
 
-                        {email?
-                            loginGoogle?
-                                <button type="submit" className="btn btn-primary btn-google"> <i className="fab fa-google"></i> Ingresar con Google</button> 
-                            :   <button type="submit" className="btn btn-primary ">Continuar</button>
-                        :
-                            
-                            (<button type="submit" className="btn btn-primary ">Ingresar</button>)
-                        }
+                    <div className='action-button d-flex justify-content-center'>
 
-                        
-                        
-                    </div>    
-                        
-                    <small id="emailHelp" className="form-text text-muted">
-                        {login?'¿No':'¿Ya'} tienes una cuenta? 
-                        <a href="" onClick={(e)=>{e.preventDefault();setLogin(!login)}} >{login?' Registrarse':' Ingresar'}</a>
+                        <button type='submit' className="btn btn-primary"> 
+                            <i className="fab fa-google"></i> Ingresar con Google
+                        </button>
+                    </div>
+
+                    <small>
+                        (Será redirigido a la página de Google)
                     </small>
-                    
                 </form>
             </main>
         </section>

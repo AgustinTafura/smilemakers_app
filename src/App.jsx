@@ -10,6 +10,9 @@ import ContactBubble from './components/contactBubble';
 import Routes from './routes/routes';
 import { UserProvider } from './context/UserContext';
 import HomeContainer from './containers/HomeContainer';
+import Navbar from './components/navbar'
+
+
 
 function App() {
   return (
@@ -17,15 +20,16 @@ function App() {
       <BrowserRouter  basename={"/smilemakers"}>
 
         <UserProvider>
+            <Navbar/>
 
+            <Routes/>
 
-          <Routes/>
-
-          <ContactBubble/>
-        
+            <ContactBubble/>
+          
 
         </UserProvider>
       </BrowserRouter>
+
     </div>
   );
 }

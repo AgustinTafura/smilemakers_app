@@ -19,18 +19,13 @@
     border: 1px solid #D5D5D5;
     border-radius: 8px;
     margin-top: 1.5rem;
-    padding: 1.2rem 2rem;
+    padding: 2rem;
+    text-align: center;
     
-    label {
-      font-weight: bold;
-      font-size: 0.8rem;
+    .description {
+      // font-weight: bold;
+      font-size: 0.9rem;
     }
-
-    input {
-      border-radius: 8px;
-      margin-top: 12px;
-  
-    } 
 
   
 
@@ -38,7 +33,7 @@
       margin-top: 2rem;
       margin-bottom: 1rem;
 
-      button {
+      .btn {
         background-color: var(--secondary);
         border-color: var(--secondary);
         &:hover , &:active {
@@ -59,10 +54,10 @@
       }
     }
 
-
-    small a {
-      color: var(--secondary);
+    small {
+      font-size: 0.7rem;
     }
+
   }
 
   

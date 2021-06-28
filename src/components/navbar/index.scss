@@ -20,7 +20,7 @@ nav{
 
     .collapse {
         li:nth-last-child(1){
-            a{
+            a, button{
                 font-weight: bold;
                 color: var(--primary) !important;
                 &:hover {

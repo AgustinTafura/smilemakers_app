@@ -5,6 +5,7 @@ import {PrivateRoute} from './helperRoutes';
 import { UserContext } from "../context/UserContext";
 import HomeContainer from '../containers/HomeContainer'
 import Login from '../components/login'
+import Test from '../components/login2'
 
 const Routes = () => {
 
@@ -13,6 +14,14 @@ const Routes = () => {
         <Switch>
             <PublicRoute exact path="/" component={HomeContainer}/>
             <PublicRoute exact path="/profesional" component={Login}/>
+
+            <PublicRoute exact path="/login" component={Login}/>
+            
+            <PublicRoute exact path="/test" component={Test}/>
+
+
+
+  
 
                                 
             {/* <PublicRoute exact path="/alineadores" component={ItemDetailContainer} /> */}
